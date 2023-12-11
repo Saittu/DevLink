@@ -3,9 +3,9 @@ function toggleMode() {
     html.classList.toggle('light')
     const img = document.querySelector(".profile img")
 
-    if (html.classlist.contains("light")){
-        img.setAttribute("src", "")
+    if (html.classList.contains("light")){
+        img.setAttribute("src", "src/assets/img-bg-white.png")
     } else {
-        img.setAttribute("src", "")
+        img.setAttribute("src", "src/assets/img-bg-black.png")
     }
 }
